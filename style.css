@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: #fdf6e3;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.curriculo-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+    color: #004080;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00264d;
+}
+
+#topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#topo:hover {
+    background-color: #00264d;
+}
+
+@media (max-width: 600px) {
+    .curriculo-container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    header,
+    section,
+    footer {
+        text-align: left;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
