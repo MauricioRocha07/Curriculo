@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <div class="curriculo-container">
+    <div class="resume-container">
 
-        <header>
+        <header class="header-section">
             <img src="https://github.com/MauricioRocha07.png" alt="Foto de Maurício" width="150" height="150">
             <h1>Maurício Rocha</h1>
             <p><strong>Email:</strong> mauricio-m-o-rocha@hotmail.com</p>
@@ -25,16 +25,16 @@
             </p>
         </header>
 
-        <section>
+        <section class="resume-section">
             <h2>Resumo <span class="toggle-icon">-</span></h2>
-            <div class="conteudo">
+            <div class="section-content">
                 <p>Estudante de Análise e Desenvolvimento de Sistemas com forte foco na resolução de problemas através da tecnologia. Possuo experiência prática no desenvolvimento de aplicações Web (HTML5, CSS3, JavaScript) e na construção de lógicas de backend com Java. Com vivência prévia em organização e atendimento, trago resiliência e facilidade para trabalho em equipe. Busco minha primeira oportunidade como Desenvolvedor Júnior ou Estagiário para contribuir com projetos reais enquanto acelero meu aprendizado.</p>
             </div>
         </section>
 
-        <section>
+        <section class="resume-section">
             <h2>Projetos em Destaque <span class="toggle-icon">-</span></h2>
-            <div class="conteudo">
+            <div class="section-content">
                 <ul>
                     <li>
                         <strong>Simulador Financeiro: </strong> Aplicação Web interativa (HTML, CSS e JavaScript). Conta com consumo de API para puxar taxas em tempo real e utiliza a biblioteca Charts.js para visualização de dados e projeção de juros compostos. <a href="https://github.com/MauricioRocha07/Financial-simulator" target="_blank">[Ver no GitHub]</a>
@@ -43,9 +43,9 @@
             </div>
         </section>
         
-        <section>
+        <section class="resume-section">
             <h2>Experiência Profissional <span class="toggle-icon">-</span></h2>
-            <div class="conteudo">
+            <div class="section-content">
                 <ul>
                     <li>
                         <strong>Esquina do Indaiá</strong> - Auxiliar Administrativo / Operacional (2019 - atual)
@@ -56,9 +56,9 @@
             </div>
         </section>
 
-        <section>
+        <section class="resume-section">
             <h2>Formação <span class="toggle-icon">-</span></h2>
-            <div class="conteudo">
+            <div class="section-content">
                 <ul>
                     <li>Análise e Desenvolvimento de Sistemas - Faculdade Descomplica (2025 a atual)</li>
                     <li>Ensino Médio - Colégio Nova Geração (2017)</li>
@@ -66,9 +66,9 @@
             </div>
         </section>
 
-        <section>
+        <section class="resume-section">
             <h2>Certificações e Cursos <span class="toggle-icon">-</span></h2>
-            <div class="conteudo">
+            <div class="section-content">
                 <ul>
                     <li>
                         <strong>Network Technician Career Path</strong> - Cisco Networking Academy
@@ -88,9 +88,9 @@
             </div>
         </section>
 
-        <section>
+        <section class="resume-section">
             <h2>Habilidades <span class="toggle-icon">-</span></h2>
-            <div class="conteudo">
+            <div class="section-content">
                 <ul>
                     <li><strong>Linguagens:</strong> Java, JavaScript (Manipulação de DOM e consumo de APIs).</li>
                     <li><strong>Front-end:</strong> HTML5, CSS3 (Design Responsivo, Flexbox)</li>
@@ -101,28 +101,28 @@
             </div>
         </section>
 
-        <section>
+        <section class="contact-section">
             <h2>Contato</h2>
-            <form>
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome" required><br><br>
+            <form id="contactForm">
+                <label for="userName">Nome:</label><br>
+                <input type="text" id="userName" name="userName" required><br><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <label for="userEmail">Email:</label><br>
+                <input type="email" id="userEmail" name="userEmail" required><br><br>
 
-                <label for="mensagem">Mensagem</label><br>
-                <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+                <label for="userMessage">Mensagem</label><br>
+                <textarea id="userMessage" name="userMessage" rows="5" cols="30" required></textarea><br><br>
 
                 <button type="submit">Enviar</button>
             </form>
         </section>
 
-        <footer>
+        <footer class="footer-section">
             <p>Última atualização: Março de 2026</p>
         </footer>
 
     </div>
-    <button id="topo" title="Voltar ao topo">&uarr;</button>
+    <button id="backToTopBtn" title="Voltar ao topo">&uarr;</button>
 
     <script src="main.js" defer></script>
 
